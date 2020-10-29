@@ -77,21 +77,21 @@
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
-    color: $title-light-thene-color;
+    color: $title-light-theme-color;
     padding-top: 32px;
     padding-bottom: 32px;
     position: relative; 
     transition: color 250ms $timing-function;
 }
 
-.link-studija,
-.link-portofolio {
+.link-studio,
+.link-portfolio {
     color: $accent-color;
 }
 
 
-.link-studija::after,
-.link-portofolio::after {
+.link-studio::after,
+.link-portfolio::after {
     display: block;
     content: " ";
     left: 0;

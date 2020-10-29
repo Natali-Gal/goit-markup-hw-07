@@ -47,7 +47,7 @@
     line-height: 1.172;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $title-light-thene-color;
+    color: $title-light-theme-color;
     margin-top: 16px;
     margin-bottom: 12px;
 }
@@ -69,11 +69,12 @@
     height: 40px;
     border-color: rgba(33, 33, 33, 0.2);
     border-style: solid;
+    border-radius: 4px;
     margin-top: 4px;
     padding-left: 42px;
 }   
 
-.form-container-coment {
+.form-container-comment {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.172;
@@ -82,13 +83,14 @@
     cursor: pointer;
 }
 
-.form-coment{
+.form-comment{
     width: 448px;
     height: 120px;
     padding: 12px;
     resize: none;
     border-color: rgba(33, 33, 33, 0.2);
     border-style: solid;
+    border-radius: 4px;
     margin-top: 4px;
     margin-bottom: 20px; 
     
@@ -106,14 +108,14 @@
 }
 
 .form-input:hover,
-.form-coment:hover,
+.form-comment:hover,
 .form-input:focus,
-.form-coment:focus {
+.form-comment:focus {
     border-color: $accent-color;
     outline: none;
 }
 
-.form-checkbox-conteiner {
+.form-checkbox-container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +128,7 @@
     color: rgba(117, 117, 117, 1);
 }
 
-.form-checkbox-conteiner::before {
+.form-checkbox-container::before {
     display: inline-block;
     content: "";
     width: 16px;
@@ -136,7 +138,7 @@
     margin-right: 8px;
 }
 
-.form-checkbox:checked + .form-checkbox-conteiner::before {
+.form-checkbox:checked + .form-checkbox-container::before {
     background-color: #2196F3;
     background-image: url(../images/modal/check.svg);
     border: none;
@@ -162,13 +164,13 @@
     width: 200px;
     height: 50px;
     border-radius: 4px;
-    border-color: rgba(33, 150, 243, 1);
-    color: $title-dark-thene-color;
+    border: none;
+    color: $title-dark-theme-color;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     cursor: pointer;
     display: block;
     margin: 0 auto;
-    border: none;
+    
 }
 
 .is-hidden {

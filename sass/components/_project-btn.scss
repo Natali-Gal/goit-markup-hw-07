@@ -9,10 +9,6 @@
     margin-bottom: 0;
 }
 
-.list btn-nav {
-    margin-top: 0;
-    margin-bottom: 0;
-}
 
 .list-project-nav {
     display: flex;
@@ -23,6 +19,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .model-btn-nav {
@@ -38,16 +36,16 @@
     line-height: 1.625;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $title-light-thene-color;
+    color: $title-light-theme-color;
     background: $portfolio-btn;
-    border-color: $portfolio-btn;
+    border: none;
     transition: all  250ms $timing-function;
 }
 
 .model-btn-nav:hover,
 .model-btn-nav:focus {
     background-color: $accent-color;
-    color: $title-dark-thene-color;
+    color: $title-dark-theme-color;
     cursor: pointer;
 }
 

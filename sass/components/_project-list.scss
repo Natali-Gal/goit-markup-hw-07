@@ -1,27 +1,27 @@
 
-.list-progect {
+.list-project {
     width: 370px;
     border: 1px solid #ECECEC;
     transition: all 250ms $timing-function;
 }
 
-.list-progect:hover {
+.list-project:hover {
     box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 
                 1px 4px 6px 0px rgba(0, 0, 0, 0.06), 
                 1px 4px 6px 0px rgba(0, 0, 0, 0.12); 
     
 }
 
-.list-progect:hover .project-text {
+.list-project:hover .project-text {
     cursor: pointer;
     transform: translateY(0%);
 }
 
-.list-progect:not(:nth-child(3n)) {
+.list-project:not(:nth-child(3n)) {
     margin-right: 30px;
 }
 
-.list-progect:not(:nth-last-child(-n+3)) {
+.list-project:not(:nth-last-child(-n+3)) {
     margin-bottom: 30px;
 }
 
@@ -60,7 +60,7 @@
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: $title-light-thene-color;
+    color: $title-light-theme-color;
     margin-top: 0;
     margin-bottom: 4px;
 }

@@ -1,18 +1,18 @@
 
-.articl {
+.article {
     padding-top: 47px;
     padding-bottom: 47px;
 }
 
-.articl-list {
+.article-list {
     display: flex; 
 }
 
-.articl-list-item:not(:last-child) {
+.article-list-item:not(:last-child) {
     margin-right: 30px; 
 }
 
-.articl-list-item {
+.article-list-item {
     width: 270px;
 }
 
@@ -57,12 +57,12 @@
     background-color: #F5F4FA;
 }
 
-.articl-title-hidden {
+.article-title-hidden {
     margin-top: 0;
     margin-bottom: 0;
 }
 
-.articl-title {
+.article-title {
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;
@@ -70,10 +70,10 @@
     line-height: 1.143;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $title-light-thene-color;
+    color: $title-light-theme-color;
 }
 
-.articl-content {
+.article-content {
     margin-top: 0;
     margin-bottom: 0;
     font-family: $main-font;
